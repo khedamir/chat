@@ -1,0 +1,30 @@
+$darkColor: #2f2d52;
+
+
+$lightBlue1: #ddddf7;
+$lightBlue2: #a7bcff;
+$lightBlue3: #8da4f1;
+
+$darkPurpur1: #2f2d52;
+$darkPurpur2: #3e3c61;
+
+$lightPurpur1: #5d5b8d;
+
+
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width: 768px) {
+        @content
+    }
+}
+
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+        @content
+    }
+}
